@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weekly Survey</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+    </head>
+        <body class="container bg-warning">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="page1.html">Weekly Survey</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="page2.html">Nutritional Information</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md order-md-2"><h2 class="display-4 mt-2 text-center">Weekly Survey</h2></div>
+                    <div class="col-md order-md-1"><img src="images/bowloficecream.png" alt="bowloficecream" class="img-fluid mt-2 mb-3"></div>
+                    <div class="col-md order-md-3"><img src="images/icecreamcone.jpg" alt="icecreamcone" class="img-fluid mt-2 mb-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col"><p class="display-4 mt-2 text-center">This weeks sruvey is all about your preference between either having a bowl of ice cream or having an ice cream cone</p></div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <div class="form-group">
+                                <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                                <div class="col-sm-12">
+                                    <input type="name" class="form-control" id="inputName" placeholder="Name">
+                                    <small id="emailHelp" class="form-text text-muted">Leave blank to be anonymous</small>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="cone" id="coneRadio" value="Cone">
+                                    <label class="form-check-label" for="coneRadio">
+                                    Ice Cream Cone
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="cone" id="bowlRadio" value="Bowl">
+                                    <label class="form-check-label" for="bowlRadio">
+                                    Bowl of Ice Cream
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </body>
+</html>
